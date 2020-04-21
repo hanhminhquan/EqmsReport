@@ -1,0 +1,222 @@
+html, body { height: 100%; width: 100%; padding: 0; border: 0; }
+#header { margin: 0px; }
+#leftAccordion { width: 25%; }
+#bottomTabs { height: 40%; }
+
+/* pre-loader specific stuff to prevent unsightly flash of unstyled content */
+body {
+    /*font: 12px Myriad,Helvetica,Tahoma,Arial,clean,sans-serif;*/
+    font-size: 13px !important;
+}
+
+.claro .dijitSelect, .claro .dijitTextBox {
+    font-size: 14px !important;
+}
+
+.claro .dijitSelect, .claro .dijitSelect .dijitButtonContents, .claro .dijitTextBox, .claro .dijitTextBox .dijitButtonNode {
+    font-size: 14px !important;
+}
+#loader {
+        padding:0;
+        margin:0;
+        position:absolute;
+        top:0; left:0;
+        width:100%; height:100%;
+        background:#ededed;
+        z-index:999;
+        vertical-align:middle;
+}
+#loaderInner {
+        padding:5px;
+        position:relative;
+        left:0;
+        top:0;
+        width:175px;
+        background:#3c3;
+        color:#fff;
+       
+}
+
+.dijitMenuItem .dijitMenuItemLink {
+	text-decoration:none !important;
+	/*text-transform: uppercase !important;*/
+	color: #000000 !important;
+} 
+
+.dijitMenuItem .dijitMenuItemLinkSub {
+	text-decoration:none !important;	
+	color: #000000 !important;
+} 
+
+
+TABLE.formBoder{
+     border-collapse:collapse;
+     line-height:25px;          
+}
+
+
+TABLE.formBoder th{
+        border-bottom:1px solid #c2c2c2;
+        font-family:Tahoma,Arial;
+        height:30px;
+        font-size:11px;
+        text-align:left;
+        padding-left:5px;
+}
+
+
+
+.formInfor {
+    margin: 4px;
+    font-size: 30px !important; 
+    font-weight: bold;
+}
+
+.formInforPackage{
+     font-weight: bold;
+     margin: 4px;
+     color: #eb6d6d;
+}
+
+.formInforTestView{
+     margin: 4px;
+     color: #eb6d6d;
+}
+
+.centerPanelInforMain{
+    width:100%;
+    height:105px;
+}
+
+.centerPanelInforMainNoButton{
+    width:100%;
+    height:50px !important;
+}
+
+.titelMessagesAdd{
+    font-weight: bold;
+    color: #dd5044;
+    text-align: center;
+}
+
+
+.patientFullName{
+    font-weight: bold;
+    color: #dd5044;
+    text-align: center;
+}
+
+.mainButtonMessages{
+    text-align: center;
+}
+
+
+.contentPaneSeachList{
+    height:67%;
+}
+.contentPaneSeachListSA{
+    height:55%;
+}
+
+.contentPaneSeachListAndPackage{
+    height:50%;
+}
+.buutomFormContent_newLeft {
+   width:80%
+}
+
+.buutomFormContent_newRight {
+  
+}
+
+.titlePatienhAdd{
+    margin: 4px;
+    font-weight: bold;
+    font-size: 18px !important; 
+}
+
+.fl{
+   float:left;
+}
+.fr{
+   float:right;
+   text-align: right;
+}
+ .ftr{
+    text-align: right;
+    margin: 0px 4px 0px 0px;
+} 
+.formLabel {
+    font-weight: bold;
+}
+
+.dijitTabChecked{
+     font-weight: bold !important; 
+     font-size: 14px !important; 
+}
+
+TABLE.formBoder tr.content {
+	background: #e7ebee;
+        text-align: left;
+        margin-left:10px;
+}
+
+TABLE.wwFormTable textarea {
+    width:70%;
+}
+
+
+
+TABLE.formBoder td {
+	padding:4px;
+        border:1px solid #c2c2c2;
+}
+
+hr.spacer { border:0; background-color:#ededed; width:80%; height:1px; }
+
+/* rules used to test custom setting of TextBox padding */
+.inputPadding0 .dijitInputField { padding: 0px !important; }
+.inputPadding1 .dijitInputField { padding: 1px !important; }
+.inputPadding2 .dijitInputField { padding: 2px !important; }
+.inputPadding3 .dijitInputField { padding: 3px !important; }
+.inputPadding4 .dijitInputField { padding: 4px !important; }
+.inputPadding5 .dijitInputField { padding: 5px !important; }
+
+.messageBox{
+  /* text-align:center;*/
+   font-size: 12px;
+   margin: 8px;
+   line-height: 28px;
+   color: #4CAF50;
+   font-weight: bold;
+}
+
+.messageBoxError{
+   /*text-align:center;*/
+   font-size: 12px;
+   margin: 8px;
+   line-height: 28px;
+   color: #ff0000;
+   font-weight: bold;
+}
+
+.tableFromEdit tr td{
+    border: 1px solid #E5DAC8;
+    line-height: 26px;
+    margin: 0px 0px 0px 4px;
+    padding: 0px 0px 0px 4px;
+}
+.tableFromEdit tr td.labelsAndValues-labelCell{
+    font-weight: bold;
+}
+
+
+
+.claro .dijitContentPane{
+   padding: 0px  !important;
+}
+
+
+#mainSub .dijitContentPane{
+   border: 0px  !important;
+}

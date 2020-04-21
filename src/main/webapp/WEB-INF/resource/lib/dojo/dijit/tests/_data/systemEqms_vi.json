@@ -1,0 +1,22 @@
+{
+	"identifier": "id",
+	"label": "name",
+	"items": [
+	        { "id": "AF", "name":"H? th?ng x?p hàng t? ??ng", "type":"continent", "timezone": "-1 UTC to +4 UTC", "children":[{"_reference":"EG"}, {"_reference":"KE"}, {"_reference":"SN"}, {"_reference":"WG"}, {"_reference":"SV"}, {"_reference":"TK"}, {"_reference":"PT"}, {"_reference":"SD"}] },
+	        	{ "id": "EG", "name":"Terminal", "type":"country" },
+	        	{ "id": "KE", "name":"Category", "type":"country" },
+                        { "id": "SN", "name":"Sign", "type":"country" },
+                        { "id": "WG", "name":"Workgroup", "type":"country" },
+                        { "id": "SV", "name":"Service", "type":"country" },
+                        { "id": "TK", "name":"Ticket", "type":"country" },
+                        { "id": "PT", "name":"Printer", "type":"country" },  
+	        	{ "id": "SD", "name":"Manager Mapping", "type":"country", "children":[{"_reference":"CN"}, {"_reference":"IN"}, {"_reference":"RU"}, {"_reference":"MN"}, {"_reference":"PG"}] },
+	        		
+                                { "id": "CN", "name":"Printer mapping", "type":"test" },
+	        		{ "id": "IN", "name":"Sign mapping", "type":"test" },
+	        		{ "id": "RU", "name":"Tranfer mapping", "type":"test" },
+	        		{ "id": "MN", "name":"Service identity", "type":"test" },
+                                { "id": "PG", "name":"Workgroup identity", "type":"test" }
+	       
+	       
+]}
